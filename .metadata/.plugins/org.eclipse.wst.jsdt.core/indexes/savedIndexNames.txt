@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+F:\spring-framework\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-365933944.index
-1446278970.index
-3764572455.index
-594502998.index
-485642199.index
-3487872604.index
-1297919145.index

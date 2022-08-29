@@ -1,9 +1,0 @@
-package com.spring.orm.entties;
-3
-
-public class Student {
-     
-	private int id;
-	private String name;
-	private String city;
-}
