@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+     
+     <bean class="com.springcore.collection.Emp" name="emp1">
+        <property name="name" value="Jugal vakhatpura"/>
+        <property name="phones"> 
+           <list>
+             <value>9769478480</value>
+             <value>9987331290</value>
+             <value>9769478480</value>
+           </list>
+        </property>
+        
+        <property name="city">
+            <set>
+                <value>Mumbai</value>
+                 <value>Mumbai</value>
+                  <value>Delhi</value>
+            </set>
+        </property>
+        
+        <property name="courses">
+           <map>
+              <entry key="java" value="1.4hr"/>
+               <entry key="python" value="1hr"/>
+            </map>
+        </property>
+    </bean>
+     
+     
+    
+  </beans>

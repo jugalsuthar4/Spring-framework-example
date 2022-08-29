@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">    
+     
+    <!--  
+    
+    <bean class="com.springcore.ci.Person" name="person1" >
+          <constructor-arg>
+             <value>Jugal Suthar Mumbai</value>
+          </constructor-arg>
+          
+           <constructor-arg>
+             <value>146</value>
+          </constructor-arg>
+     </bean>
+     
+     --> 
+     
+     <bean class="com.springcore.ci.Certi" name="cer" c:name="Python programming language" />
+  
+     
+     <!-- using attribute -->
+       <bean class="com.springcore.ci.Person" name="person2" >
+         
+          <constructor-arg value="Durgesh" />
+          <constructor-arg value="178" />
+          <constructor-arg ref="cer" />
+          <constructor-arg>
+             <list>
+                 <value>9769478480</value>
+                 <value>9969603909</value>
+                 <value>8107038328</value>
+             </list>
+          </constructor-arg>
+       </bean>    
+       
+       
+      <bean class="com.springcore.ci.Addition" name="add1">
+           <constructor-arg value="12" />
+            <constructor-arg value="34" />
+     
+      </bean>
+     
+    
+  </beans>

@@ -1,0 +1,5 @@
+package springmv.service;
+
+public class UserService {
+
+}
